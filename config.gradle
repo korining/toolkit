@@ -1,0 +1,132 @@
+ext {
+    android = [
+            buildToolsVersion: "29.0.2",
+            compileSdkVersion: 29,
+            minSdkVersion    : 19,
+            targetSdkVersion : 26,
+            applicationId    : "com.korining.toolkit",
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+
+    dependVersion = [
+            appcompatV7Version         : "28.0.0",
+            okhttpVersion              : "4.6.0",
+            loggingInterceptorVersion  : "4.6.0",
+            retrofitVersion            : "2.8.1",
+            converterGsonVersion       : "2.8.1",
+            adapterRxjava2Version      : "2.8.1",
+            rxandroidVersion           : "2.1.1",
+            rxkotlinVersion            : "2.3.0",
+            ankoVersion                : "0.10.7",
+
+            gsonVersion                : "2.8.5",
+            annotationVersion          : "1.0.0",
+
+            materialCalendarviewVersion: "2.0.1",
+            constraintLayoutVersion    : "1.1.3",
+
+            loggerVersion              : "2.2.0",
+            zxingVersion               : "3.3.3",
+            autoSizeVersion            : "1.2.1",
+            roomVersion                : "2.2.3",
+            coroutinesVersion          : "1.3.0",
+            eventbusVersion            : "3.1.1",
+            lottieVersion              : "2.7.0",
+
+            fragmentKtxVersion         : "1.2.4",
+            roomKtxVersion             : "2.2.5",
+            livedataKtxVersion         : "2.2.0",
+
+            glideVersion               : "4.9.0",
+            glideTransformationsVersion: "4.0.0",
+
+            workVersion                : "2.1.0",
+
+            junitVersion               : "4.13",
+
+            flexboxVersion             : "1.0.0",
+
+            spinKitVersion             : "1.2.0",
+            recyclerviewVersion        : "28.0.0",
+
+            junitVersion               : "4.12",
+            runnerVersion              : "1.0.2",
+            espressoCoreVersion        : "3.0.2",
+
+            recyclerviewVersion        : "28.0.0",
+            lifecycleVersion           : "1.1.1",
+            constraintLayoutVersion    : "1.1.3",
+            acpVersion                 : "1.2.0",
+
+            switchButton               : "2.0.0",
+
+            permissionVersion          : "1.0.0"
+
+    ]
+
+    supportDeps = [
+            "appcompat-v7": "com.android.support:appcompat-v7:$rootProject.ext.dependVersion.appcompatV7Version",
+            "anko"        : "org.jetbrains.anko:anko:$rootProject.ext.dependVersion.ankoVersion",
+            "design"      : "com.android.support:design:$rootProject.ext.dependVersion.appcompatV7Version"
+    ]
+
+    okhttp = [
+            "okhttp"             : "com.squareup.okhttp3:okhttp:$rootProject.ext.dependVersion.okhttpVersion",
+            "logging-interceptor": "com.squareup.okhttp3:logging-interceptor:$rootProject.ext.dependVersion.loggingInterceptorVersion"
+    ]
+
+    retrofit = [
+            "retrofit"       : "com.squareup.retrofit2:retrofit:$rootProject.ext.dependVersion.retrofitVersion",
+            "converter-gson" : "com.squareup.retrofit2:converter-gson:$rootProject.ext.dependVersion.converterGsonVersion",
+            "adapter-rxjava2": "com.squareup.retrofit2:adapter-rxjava2:$rootProject.ext.dependVersion.adapterRxjava2Version",
+            "retrofit-mock"  : "com.squareup.retrofit2:retrofit-mock:$rootProject.ext.dependVersion.retrofitVersion"
+    ]
+
+    rxJava = [
+            "rxandroid": "io.reactivex.rxjava2:rxandroid:$rootProject.ext.dependVersion.rxandroidVersion",
+            "rxkotlin" : "io.reactivex.rxjava2:rxkotlin:$rootProject.ext.dependVersion.rxkotlinVersion"
+    ]
+
+    coroutines = [
+            "coroutines-core"   : "org.jetbrains.kotlinx:kotlinx-coroutines-core:$rootProject.ext.dependVersion.coroutinesVersion",
+            "coroutines-android": "org.jetbrains.kotlinx:kotlinx-coroutines-android:$rootProject.ext.dependVersion.coroutinesVersion"
+    ]
+
+    testDeps = [
+            "junit"       : "junit:junit:$rootProject.ext.dependVersion.junitVersion",
+            "runner"      : "com.android.support.test:runner:$rootProject.ext.dependVersion.runnerVersion",
+            "espressoCore": "com.android.support.test.espresso:espresso-core:$rootProject.ext.dependVersion.espressoCoreVersion"
+    ]
+
+    room = [
+            "room-runtime" : "androidx.room:room-runtime:$rootProject.ext.dependVersion.roomVersion",
+            "room-ktx"     : "androidx.room:room-ktx:$rootProject.ext.dependVersion.roomVersion",
+            "room-compiler": "androidx.room:room-compiler:$rootProject.ext.dependVersion.roomVersion"
+    ]
+
+    glide = [
+            "glide"                : "com.github.bumptech.glide:glide:$rootProject.ext.dependVersion.glideVersion",
+            "glide-transformations": "jp.wasabeef:glide-transformations:$rootProject.ext.dependVersion.glideTransformationsVersion"
+    ]
+
+
+    autosize = "me.jessyan:autosize:$rootProject.ext.dependVersion.autoSizeVersion"
+    //acp = "com.mylhyl:acp:$rootProject.ext.dependVersion.acpVersion"
+    lifecycle = "android.arch.lifecycle:extensions:$rootProject.ext.dependVersion.lifecycleVersion"
+    eventbus = "org.greenrobot:eventbus:$rootProject.ext.dependVersion.eventbusVersion"
+
+    zxing = "com.google.zxing:core:$rootProject.ext.dependVersion.zxingVersion"
+    gson = "com.google.code.gson:gson:$rootProject.ext.dependVersion.gsonVersion"
+    logger = "com.orhanobut:logger:$rootProject.ext.dependVersion.loggerVersion"
+
+    materialCalendarview = "com.github.prolificinteractive:material-calendarview:$rootProject.ext.dependVersion.materialCalendarviewVersion"
+    flexbox = "com.google.android:flexbox:$rootProject.ext.dependVersion.flexboxVersion"
+    spinKit = "com.github.ybq:Android-SpinKit:$rootProject.ext.dependVersion.spinKitVersion"
+    constraintLayout = "com.android.support.constraint:constraint-layout:$rootProject.ext.dependVersion.constraintLayoutVersion"
+    recyclerview = "com.android.support:recyclerview-v7:$rootProject.ext.dependVersion.recyclerviewVersion"
+    switchButton = "com.kyleduo.switchbutton:library:2.0.0"
+
+    //腾讯浏览器服务
+    tencent_tbs_webkit = 'com.tencent.tbs.tbssdk:sdk:43903'
+}
