@@ -112,7 +112,6 @@ ext {
 
 
     autosize = "me.jessyan:autosize:$rootProject.ext.dependVersion.autoSizeVersion"
-    //acp = "com.mylhyl:acp:$rootProject.ext.dependVersion.acpVersion"
     lifecycle = "android.arch.lifecycle:extensions:$rootProject.ext.dependVersion.lifecycleVersion"
     eventbus = "org.greenrobot:eventbus:$rootProject.ext.dependVersion.eventbusVersion"
 

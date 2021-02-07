@@ -31,4 +31,16 @@ dependencies {
 
     implementation rootProject.ext.constraintLayout
     implementation rootProject.ext.supportDeps["appcompat-v7"]
+
+    // 协程
+    implementation rootProject.ext.coroutines["coroutines-core"]
+    implementation rootProject.ext.coroutines["coroutines-android"]
+
+    // okhttp
+    api rootProject.ext.okhttp["okhttp"]
+    api rootProject.ext.okhttp["logging-interceptor"]
+    
+    //retrofit
+    api rootProject.ext.retrofit["retrofit"]
+    api rootProject.ext.retrofit["converter-gson"]
 }
