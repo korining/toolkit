@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_f1f1f1">#f1f1f1</color>
+    <color name="color_ececec">#ececec</color>
+    <color name="color_e5e5e5">#FFE5E5E5</color>
+    <color name="color_cdcdcd">#FFCDCDCD</color>
+    <color name="color_bg_button">#FF2A6295</color>
+    <color name="color_bg_button_unabled">#CECECE</color>
+    <color name="background_transparent">#80000000</color>
+    <color name="background_toast">#C0000000</color>
+    <color name="background_loading">#EEFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="bag_price_color">#FA5B5B</color>
+    <color name="text_warn">#fcb021</color>
+    <color name="color_092f3b">#092f3b</color>
+    <color name="color_bababa">#bababa</color>
+    <color name="dark_green">#58ba49</color>
+
+    <color name="progress_green_dark_color">#388E3C</color>
+    <color name="progress_green_primary_color">#4CAF50</color>
+    <color name="progress_green_light_primary_color">#C8E6C9</color>
+</resources>
