@@ -1,3 +1,4 @@
+include ':FlyHttp'
 include ':utils'
 include ':app'
 rootProject.name = "toolkit"
